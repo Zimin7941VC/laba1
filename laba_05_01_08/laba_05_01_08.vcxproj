@@ -139,7 +139,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Keeper.cpp" />
     <ClCompile Include="laba_05_01_08.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="Stationery.cpp" />
+    <ClCompile Include="Textbook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="List.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="Keeper.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="Stationery.h" />
+    <ClInclude Include="Textbook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="laba_05_01_08.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
